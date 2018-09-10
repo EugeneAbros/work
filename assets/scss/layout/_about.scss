@@ -1,0 +1,83 @@
+.wrapper-about {
+	background: #e7e7e7;
+	.background-darken {
+		background: #FFF;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		padding: 40px 40px;
+	}
+	.single-title {
+		h1 {
+
+		}
+		.description-about {
+			p {
+				line-height: 29px;
+				font-size: 40px;
+				strong {
+					font-size: 40px;
+				}
+			}
+
+		}
+	}
+	a {
+		font-size: 17px;
+		color: #f81206;
+		font-weight: 400;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	ul {
+		padding-left: 10px;
+
+		li {
+			font-size: 16px;
+			line-height: 29px;
+			background-image: url("../../images/punkt.png");
+			background-position: left;
+			padding-left: 30px;
+			background-size: 20px 20px;
+			background-repeat: no-repeat;
+			list-style-type: none;
+
+			a {
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	ol {
+		padding-left: 10px;
+
+		li {
+			font-size: 16px;
+			background-image: url("../../images/punkt.png");
+			background-position: left;
+			padding-left: 30px;
+			background-size: 20px 20px;
+			background-repeat: no-repeat;
+			list-style-type: none;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+@media screen and ( max-width: 768px ) {
+.wrapper-about {
+	.breadcrumbs {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.background-darken {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+}

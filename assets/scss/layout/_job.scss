@@ -1,0 +1,406 @@
+.wrapper-job {
+	padding: 0 0 40px;
+	background: #e7e7e7;
+	.breadcrumbs {
+		padding-top: 0;
+padding-bottom: 10px;
+	}
+	.container-search-job {
+		margin-bottom: 10px;
+
+		.search-content {
+			border-top: 1px solid #DDD;
+			margin-top: 10px;
+			padding-top: 10px;
+
+			.facetwp-facet {
+				margin-bottom: 5px;
+			}
+
+			.branza,
+			.city,
+			.city-place,
+			.kwalifikacje,
+			.opiekun,
+			.wynagrodzenie {
+				padding: 0 15px;
+				width: 16.666666%;
+
+				p {
+					margin-bottom: 0;
+				}
+
+				select {
+					border: 1px solid #bababa;
+					border-bottom-left-radius: 10px;
+					border-bottom-right-radius: 10px;
+					border-top-right-radius: 10px;
+					padding: 10px 0;
+					width: 100%;
+					font-weight: bold;
+					    padding-left: 10px;
+
+					option {
+						font-size: 16px;
+					}
+
+					&:focus {
+						outline: none;
+					}
+
+					&:active {
+						outline: none;
+					}
+				}
+			}
+
+			.facetwp-facet-wynagrodzenie {
+				margin-top: 10px;
+
+				.facetwp-slider-wrap {
+					padding-bottom: 8px;
+				}
+
+				.facetwp-slider-reset {
+					display: none!important;
+				}
+			}
+
+			.wynagrodzenie {
+				float: left;
+
+				.text-string {
+					margin-right: 5px;
+				}
+				.facetwp-slider {
+					background: #DDD;
+					padding-right: 0;
+					padding-left: 0;
+					height: 5px;
+
+				}
+
+				.noUi-connect {
+					background: #fe180b;
+				}
+
+				.noUi-base {
+					height: 5px;
+				}
+
+				.noUi-handle {
+					top: -8px;
+					width: 20px;
+					height: 20px;
+					border-radius: 50px;
+					background: #fe180b;
+					-webkit-box-shadow: 0 0 26px -2px rgba(0,0,0,0.75);
+					-moz-box-shadow: 0 0 26px -2px rgba(0,0,0,0.75);
+					box-shadow: 0 0 26px -2px rgba(0,0,0,0.75);
+
+					&:before {
+						display: none;
+					}
+
+					&:after {
+						display: none;
+					}
+
+					&:focus {
+						outline: none;
+					}
+
+					&:active {
+						outline: none;
+					}
+				}
+			}
+
+			.opiekun {
+				float: left;
+			}
+
+			.branza {
+				float: left;
+			}
+
+			.kwalifikacje {
+				float: left;
+
+				span {
+					display: none;
+				}
+
+				.facetwp-radio {
+					background: #DDD;
+					border-radius: 10px;
+					width: 90px;
+					padding-left: 0;
+					text-align: center;
+				}
+
+				.facetwp-radio.checked[data-value=nie] {
+					background: #fe180b;
+					color: #FFF;
+					border-radius: 10px;
+					width: 90px;
+					padding-left: 0;
+					text-align: center;
+					font-weight: bold;
+				}
+				.facetwp-radio.checked[data-value=tak] {
+					background: #008000;
+					color: #FFF;
+					border-radius: 10px;
+					width: 90px;
+					padding-left: 0;
+					text-align: center;
+					font-weight: bold;
+				}
+			}
+
+			.city {
+				float: left;
+			}
+
+			.city-place {
+				float: left;
+			}
+
+		}
+	}
+
+	.post-job {
+		background: #FFF;
+		margin-bottom: 10px;
+		padding: 15px;
+
+		.description {
+			overflow: hidden;
+			padding-left: 50px;
+			width: 67%;
+			.price {
+				text-align: right;
+				margin-bottom: 50px;
+
+				span {
+					font-size: 30px;
+					color: #191919;
+				}
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+
+		a {
+			color: #fe170c;
+			font-size: 30px;
+			font-weight: 700;
+			transition: 0.3s ease-in-out;
+			border-bottom: 1px solid transparent;
+			    line-height: 30px;
+
+			&:hover {
+				text-decoration: none;
+				border-bottom: 1px solid #DDD;
+			}
+		}
+
+		.small-desc {
+			float: left;
+			width: 33%;
+			.the-date {
+				span {
+					font-size: 14px;
+					color: #90969a;
+				}
+
+				.author {
+					a {
+						color: #fe170c;
+						font-size: 14px;
+					}
+				}
+			}
+
+			.desc-job {
+				margin-top: 30px;
+
+				.city,
+				.number-place,
+				.requirements {
+					img {
+						width: 30px;
+						height: 25px;
+						display: inline-block;
+					}
+
+					p {
+						font-size: 14px;
+						color: #7b7b7b;
+						display: inline-block;
+					}
+					a {
+						p {
+							color: #fe170c;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.sidebar-right {
+		.red-box-job {
+			.background-red {
+				background: #fe180b;
+				    padding: 30px 25px;
+				::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				  color: #FFF;
+				}
+				::-moz-placeholder { /* Firefox 19+ */
+				  color: #FFF;
+				}
+				:-ms-input-placeholder { /* IE 10+ */
+				  color: #FFF;
+				}
+				:-moz-placeholder { /* Firefox 18- */
+				  color: #FFF;
+				}
+				h4 {
+					color: #ffffff;
+					font-size: 30px;
+					font-weight: 300;
+				}
+
+				p {
+					color: #FFF;
+				}
+			}
+		}
+
+		.social-sharing {
+			.background-white {
+				margin-top: 20px;
+				background: #fefefe;
+				padding: 20px 15px;
+
+				ul {
+					transform: translateX(-50%)!important;
+					display: inline-block!important;
+
+					li {
+						margin-right: 10px !important;
+						    transition: .3s ease-in-out;
+						&:hover {
+							transform: scale(1.15);
+						}
+					}
+				}
+
+				p {
+					color: #191919;
+					font-size: 15px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+@media screen and ( max-width: 1200px ) {
+	.wrapper-job {
+		.sidebar-right {
+			.social-sharing {
+				.background-white {
+					ul {
+						li {
+							margin-right: 5px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and ( max-width: 992px ) {
+	.wrapper-job {
+		.job-container-post {
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.container-search-job  {
+			.search-content {
+				    clear: both;
+						margin-top: 40px;
+
+				.field-price {
+					width: 33.333333%;
+				}
+			}
+		}
+
+	}
+}
+@media screen and ( max-width: 768px ) {
+
+	.wrapper-job {
+		.post-job {
+			.description {
+				padding-left: 5px;
+				width: 100%;
+
+				.price {
+					text-align: left;
+					margin-bottom: 10px;
+				}
+			}
+
+			.small-desc {
+				float: none;
+				width: 100%;
+				.desc-job {
+					margin-top: 5px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+@media screen and ( max-width: 576px ) {
+	.container-search-job {
+		form {
+			display: block;
+			margin-top: 10px;
+			float: none;
+							margin-left: 10px;
+							width: 95%;
+			input {
+				margin-bottom: 10px;
+
+			}
+		}
+	}
+	.wrapper-job {
+		.post-job {
+			.description {
+				.price {
+					span {
+						font-size: 25px;
+					}
+				}
+			}
+		}
+		.container-search-job  {
+			.search-content {
+				.field-price {
+					width: 100%;
+				}
+				.facetwp-type-slider {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+			}
+		}
+	}
+}

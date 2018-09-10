@@ -1,0 +1,113 @@
+@media print {
+* {/* Keyword values */
+-webkit-print-color-adjust: economy;
+-webkit-print-color-adjust: exact;
+
+/* Global values */
+-webkit-print-color-adjust: inherit;
+-webkit-print-color-adjust: initial;
+-webkit-print-color-adjust: unset;}
+  .wrapper-header {
+    .up-menu {
+      display: none;
+    }
+    .drawer {
+      display: none;
+    }
+    .navigation {
+      display: none;
+    }
+    .navigation-container {
+      border-top: none;
+      border-bottom: none;
+    }
+	}
+  .content-job-post {
+    padding: 15px!important;
+  }
+  .scroll-menu {
+    display: none;
+  }
+
+	.content-wrap .content .background-darken .job-container .single-job a {
+		color: #fe170c!important;
+	font-size: 30px!important;
+	font-weight: 700!important;
+
+	}
+.content-wrap .content .background-darken .job-container .desc-job .detail-job .city a p {
+	color: #fe170c!important;
+}
+.content-wrap .content .background-darken .job-container .single-job .small-desc .the-date .author a {
+	font-size: 14px!important;
+}
+.content-wrap .content .background-darken .job-container .content-job-post .responsibilities-container {
+	background: #eee!important;
+padding: 5px!important;
+margin-top: 40px!important;
+margin-bottom: 40px!important;
+-webkit-print-color-adjust: exact;
+}
+	.content-wrap  {
+		.desc-post {
+			p {
+				strong {
+					font-weight: 700;
+				}
+			}
+		}
+		.container-search-job {
+			display: none;
+		}
+		.breadcrumbs {
+			display: none;
+		}
+		.non-printable {
+			display: none;
+		}
+		.printable {
+			display: block;
+		}
+	}
+
+	.gallery-single {
+		img {
+			width: 24%;
+			    height: 150px;
+					float: left;
+					margin-right: 1%;
+		}
+	}
+	.author-box .button-user {
+		display: none!important;
+	}
+	.print-button {
+		display: none;
+	}
+	#toggle-app {
+		display: none;
+	}
+	.social-container {
+		display: none;
+	}
+	.wrapper-contact-box {
+		display: none;
+	}
+	.wrapper-footer-menu {
+		display: none;
+	}
+	.wrapper-footer {
+		display: none;
+	}
+	a[href]:after {
+	content: none !important;
+}
+.page-content {
+  width: 70%!important;
+  float: left;
+}
+.sidebar {
+  width: 30%;
+  float: left;
+}
+}

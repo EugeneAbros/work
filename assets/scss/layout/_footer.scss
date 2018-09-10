@@ -1,0 +1,456 @@
+.other-page-background {
+  background: #e7e7e7;
+}
+
+.wrapper-contact-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .three-box {
+    &:nth-child(4) {
+      p {
+        padding-bottom: 20px;
+      }
+    }
+
+    .box-background {
+      background: #f7f8fb;
+      padding: 40px 30px 60px;
+      width: 100%;
+      height: 100%;
+
+      .title {
+        p {
+          line-height: 25px;
+          font-size: 35px;
+          color: #000000;
+          font-weight: 300;
+
+          strong {
+            font-weight: 800;
+          }
+        }
+      }
+
+      .description {
+        p {
+          font-size: 18px;
+          color: #000000;
+          font-weight: 300;
+
+          strong {
+            font-weight: 600;
+          }
+        }
+      }
+
+     .folder {
+        background: #f81206;
+        color: #FFF;
+        font-size: 13px;
+        padding: 10px 25px 10px 0;
+        border-radius: 75px;
+        display: inline-block;
+        margin-top: 10px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 0.7;
+        }
+      }
+      .plus {
+        background: #f81206;
+        color: #FFF;
+        font-size: 13px;
+        padding: 10px 25px 10px 0;
+        border-radius: 75px;
+        display: inline-block;
+        margin-top: 10px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 0.7;
+        }
+      }
+      .face {
+        padding: 10px 25px 10px 0;
+        border-radius: 75px;
+        display: inline-block;
+        margin-top: 10px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 0.7;
+        }
+      }
+      .tel {
+        padding: 10px 25px 10px 0;
+        border-radius: 75px;
+        display: inline-block;
+        margin-top: 10px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 0.7;
+        }
+      }
+      .person {
+
+        padding: 10px 25px 10px 0;
+        border-radius: 75px;
+        display: inline-block;
+        margin-top: 10px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 0.7;
+        }
+      }
+    }
+
+    .contact-input {
+      a {
+        background: #ffffff;
+        font-size: 15px;
+        color: #62625b;
+        -webkit-box-shadow: 0 0 22px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0 0 22px -7px rgba(0,0,0,0.75);
+        box-shadow: 0 0 22px -7px rgba(0,0,0,0.75);
+        display: block;
+        width: 300px;
+      }
+    }
+
+    .folder {
+      img {
+        width: 25px;
+        height: 19px;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+    }
+
+    .plus {
+      img {
+        width: 19px;
+        height: 19px;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+    }
+
+    .face {
+      padding: 5px !important;
+
+      img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+    }
+
+    .tel {
+      img {
+        width: 19px;
+        height: 19px;
+        margin-right: 23px;
+        margin-left: 15px;
+      }
+    }
+
+    .person {
+      img {
+        width: 18px;
+        height: 20px;
+        margin-right: 23px;
+        margin-left: 15px;
+      }
+    }
+  }
+.three-box.ruClass {
+  .contact-input {
+    a {
+      width: 300px;
+    }
+  }
+}
+  .modal {
+    top: 50%!important;
+    transform: translateY(-50%)!important;
+
+    button.close {
+      top: 15px;
+      right: 15px;
+      position: absolute;
+    }
+
+    .modal-header {
+      h5 {
+        font-weight: bold;
+      }
+    }
+
+    .modal-body {
+      p {
+        padding-bottom: 5px;
+      }
+      text-align: center;
+
+      input,
+      textarea {
+        width: 100%;
+        border: 1px solid #e4e4e4;
+        border-radius: 4px;
+        padding: 5px;
+        color: #000;
+      }
+
+      .wpcf7-submit {
+        background: #f81206;
+        color: #FFF;
+        border-radius: 75px;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.wrapper-footer-menu {
+  background: #f7f8fb;
+  padding: 30px 0;
+
+  .menu {
+    padding-left: 15px;
+
+    ul {
+      padding-left: 0;
+      display: flex;
+      list-style-type: none;
+
+      li {
+        flex-grow: 1;
+        vertical-align: top;
+        padding: 0px;
+        transition: 0.4s ease-in-out;
+        border-top: 2px solid transparent;
+        position: relative;
+
+        a {
+          font-size: 17px;
+          color: #000000;
+          font-weight: 900;
+          transition: 0.3s ease-in-out;
+          border-bottom: 1px solid transparent;
+
+          &:hover {
+            border-bottom: 1px solid #f81206;
+          }
+        }
+
+        .sub-menu {
+          display: block;
+          width: 100%;
+          padding-left: 0;
+
+          li {
+            width: 100%;
+            padding-left: 0;
+            display: block;
+
+            a {
+              font-size: 15px;
+              color: #717171;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.wrapper-footer {
+  background: #f0f1f2;
+  padding: 15px 0;
+
+  .left-side {
+    margin-top: 10px;
+
+    .logo-footer {
+      opacity: 1;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      img {
+        width: 50%;
+        height: 31px;
+      }
+    }
+
+    a {
+      opacity: 0.5;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .middle-side {
+    #mc_embed_signup_scroll {
+      overflow: hidden;
+      position: relative;
+
+      input {
+        background-color: #FFF;
+        color: #000;
+      }
+
+      .mc-field-group {
+        float: left;
+        width: 70%;
+      }
+
+      .mce-responses {
+        display: none;
+      }
+
+      .clear {
+        float: left;
+        clear: none;
+        float: left;
+        width: 30%;
+      }
+
+      input[type="email"] {
+        width: 80%!important;
+      }
+
+      input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        color: #000;
+        box-shadow: 0 0 22px -7px rgba(0,0,0,.75);
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .right-side {
+    margin-top: 25px;
+
+    p {
+      display: inline-block;
+      padding-right: 10px;
+    }
+
+    img {
+      display: inline-block;
+      width: 72px;
+      height: 14px;
+      margin-bottom: 5px;
+    }
+  }
+}
+@media screen and ( max-width: 1199px ) {
+  .wrapper-footer {
+    .right-side {
+      margin-top: 20px;
+    }
+  }
+}
+@media screen and ( max-width: 992px ) {
+  .wrapper-footer-menu {
+    display: none;
+  }
+
+  .wrapper-footer {
+    .middle-side {
+      padding-top: 15px;
+    }
+
+    .left-side {
+      .logo-footer {
+        img {
+          width: 230px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+@media screen and ( max-width: 576px ) {
+  .wrapper-contact-box .three-box .box-background .title p {
+    font-size: 25px;
+  }
+  .wrapper-footer {
+    .left-side {
+      .logo-footer {
+        clear: both;
+        display: block;
+      }
+
+      img {
+        display: block;
+      }
+
+      a {
+        display: inline-block;
+      }
+    }
+
+    .middle-side {
+      #mc_embed_signup_scroll {
+        input[type="submit"] {
+          position: relative;
+          display: inline-block;
+          margin-left: 15px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and ( max-width: 360px ) {
+  .wrapper-contact-box {
+    .three-box {
+      .contact-input {
+        a {
+          width: 100%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

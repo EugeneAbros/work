@@ -1,0 +1,19 @@
+// All style copy from job page !
+.wrapper-job {
+	.author-container {
+		.title-author-page {
+			margin-top: 0px;
+			padding: 15px 15px;
+			background: #FFF;
+		}
+	}
+}
+@media screen and ( max-width: 576px ) {
+	.wrapper-job {
+		.author-container {
+			.title-author-page {
+				font-size: 25px;
+			}
+		}
+	}
+}

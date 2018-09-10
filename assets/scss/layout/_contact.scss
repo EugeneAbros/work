@@ -1,0 +1,369 @@
+#map1, #map2, #map3, #map4 {
+	height: 300px;
+	width: 100%;
+	    border-radius: 25px;
+}
+.wrapper-contact {
+	background: #e7e7e7;
+
+	.top {
+		background: #FFF;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		padding: 40px;
+		text-align: center;
+
+		.left-side {
+			h1 {
+				font-size: 30px;
+				margin-bottom: 70px;
+				margin-top: 0;
+			}
+
+			h2 {
+				font-size: 18px;
+			}
+
+			.text-company {
+				margin-bottom: 0;
+			}
+
+			.register-company {
+				margin-top: 15px;
+			}
+		}
+
+		.right-side {
+			.contact-detail {
+				&:nth-child( 2 ) {
+					margin-bottom: 40px;
+				}
+				margin-bottom: 20px;
+
+				&:hover {
+					img {
+						opacity: 1;
+					}
+				}
+
+				img {
+					display: inline-block;
+					opacity: 0.5;
+					transition: 0.3s ease-in-out;
+					margin-right: 15px;
+				}
+
+				a {
+					display: inline-block;
+					color: #000;
+					font-size: 18px;
+					font-weight: 600;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+
+			.social-container {
+				border-top: 1px solid #DDD;
+
+				a {
+					&:hover {
+						img {
+							opacity: 1;
+						}
+					}
+
+					img {
+						display: inline-block;
+						opacity: 0.5;
+						transition: 0.3s ease-in-out;
+					}
+
+					p {
+						display: inline-block;
+						color: #000;
+						font-size: 18px;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+
+	.city {
+		background: #FFF;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		padding: 40px 0;
+
+		.city-detail {
+			text-align: center;
+
+			h4 {
+				font-size: 30px;
+				margin-bottom: 40px;
+			}
+
+			.city-content {
+				margin-bottom: 40px;
+
+				p {
+					font-size: 20px;
+				}
+			}
+		}
+
+		.contact-form {
+			padding: 0 5%;
+			position: relative;
+			padding-bottom: 20px;
+
+			&:before {
+				width: 1px;
+				content: '';
+				height: 90%;
+				background-color: gainsboro;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+
+			input,
+			textarea {
+				width: 100%;
+				border: 1px solid #e4e4e4;
+				border-radius: 4px;
+				padding: 5px;
+				color: #000;
+				background-color: #FFF;
+				padding: 8px 15px;
+				    transition: .3s ease-in-out;
+				&:focus {
+					outline: none;
+					background-color: rgba(208, 208, 208, 0.2);
+					-webkit-box-shadow: 0px 0px 0px 2px rgba(228,228,228,0.75);
+-moz-box-shadow: 0px 0px 0px 2px rgba(228,228,228,0.75);
+box-shadow: 0px 0px 0px 2px rgba(228,228,228,228.75);
+				}
+				&:active {
+					outline: none;
+				}
+			}
+
+			.wpcf7-submit {
+				background: #f81206;
+				color: #FFF;
+				border-radius: 75px;
+				width: 50%;
+				margin: 0 auto;
+				display: block;
+				padding: 10px;
+				transition: .3s ease-in-out;
+
+				&:hover {
+					opacity: 0.7;
+					cursor: pointer;
+				}
+			}
+		}
+
+
+
+		.person-container {
+			.person-content {
+				position: relative;
+				.button-user {
+					margin-top: 10px;
+					a {
+						color: #000;
+						font-weight: 700;
+					}
+				}
+				&:nth-child(3n-1) {
+					&:before {
+						width: 1px;
+						content: '';
+						height: 60%;
+						background-color: gainsboro;
+						position: absolute;
+						left: 0;
+						top: 25%;
+					}
+				}
+
+				&:nth-child(3n) {
+					&:before {
+						width: 1px;
+						content: '';
+						height: 60%;
+						background-color: gainsboro;
+						position: absolute;
+						left: 0;
+						top: 25%;
+					}
+				}
+
+				.person-background {
+					padding: 15px 15px 15px 40px;
+
+					h4 {
+						font-weight: bold;
+						font-size: 18px;
+					}
+
+					.description-person {
+						p {
+							font-size: 13px;
+						}
+					}
+
+					.detail-person {
+						margin-bottom: 10px;
+
+						&:hover {
+							img {
+								opacity: 1;
+							}
+						}
+
+						img {
+							opacity: 0.5;
+							transition: 0.3s ease-in-out;
+						}
+
+						span {}
+
+						p {
+							display: inline-block;
+							margin-bottom: 0;
+						}
+
+						.tel {
+							font-weight: bold;
+							color: #000;
+							font-size: 18px;
+						}
+
+						.skype {
+							font-weight: bold;
+						}
+
+						.email {
+							color: #f81206;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and ( max-width: 1400px ) {
+	.wrapper-contact {
+		.top {
+			.right-side {
+				.social-container {
+					a {
+						img {
+							width: 70px;
+							height: 70px;
+						}
+						p {
+							font-size: 17px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and ( max-width: 992px ) {
+	.wrapper-contact {
+		.top {
+			.right-side {
+				padding-top: 20px;
+			}
+		}
+		.city {
+			.contact-form {
+				&:before {
+					display: none;
+				}
+			}
+			.person-container {
+				.person-content{
+					&:nth-child(3n-1){
+						&:before {
+							display: none;
+						}
+					}
+					&:nth-child(3n){
+						&:before {
+							display: none;
+						}
+					}
+
+				}
+			}
+		}
+	}
+
+}
+@media screen and ( max-width: 768px ) {
+.wrapper-contact {
+	.top {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.city {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+}
+@media screen and ( max-width: 576px ) {
+.wrapper-contact {
+	.top {
+		margin-left: 15px;
+		margin-right: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+		.left-side {
+			h1 {
+				font-size: 26px;
+				margin-bottom: 55px;
+			}
+		}
+		.right-side {
+			.social-container {
+				a {
+					display: block;
+					padding-right: 40px;
+
+				}
+			}
+		}
+	}
+	.city {
+		margin-left: 15px;
+		margin-right: 15px;
+		.city-detail {
+			h4 {
+				font-size: 26px;
+			}
+		}
+		.person-container {
+			.person-content {
+				width: 100%;
+				text-align: center;
+				.person-background {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+			}
+		}
+	}
+}
+}

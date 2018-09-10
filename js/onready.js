@@ -1,0 +1,1 @@
+var url = jspath.template_url;

@@ -1,0 +1,436 @@
+.printable {
+    display: none;
+}
+
+.print-button {
+    background-image: url(../../images/print.png );
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    border: none!important;
+    &:hover {
+        text-decoration: none!important;
+        border: none!important;
+    }
+}
+
+.application-form {
+    display: none;
+    clear: both;
+    border-top: 1px solid #DDD;
+    padding-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    iframe {
+        width: 100%;
+        min-height: 1350px;
+    }
+}
+
+.content-wrap {
+    .breadcrumbs {}
+    .content {
+        .background-darken {
+            .job-container {
+                padding: 30px 15px 15px 15px;
+                position: relative;
+                .single-job {
+                    padding-bottom: 10px;
+                    .description {
+                        overflow: hidden;
+                        padding-left: 50px;
+                        width: 44%;
+                        .price {
+                            text-align: right;
+                            margin-bottom: 35px;
+                            span {
+                                font-size: 30px;
+                                color: #191919;
+                            }
+                        }
+                        .button-container {
+                            padding: 15px 0;
+                            text-align: right;
+                            a {
+                                color: #ffffff;
+                                font-size: 15px;
+                                background: #f81206;
+                                border-radius: 75px;
+                                padding: 10px 85px;
+                                text-transform: uppercase;
+                                &:hover {
+                                    opacity: 0.8;
+                                }
+                            }
+                        }
+                    }
+                    a {
+                        color: #fe170c;
+                        font-size: 30px;
+                        font-weight: 700;
+                        transition: .3s ease-in-out;
+                        border-bottom: 1px solid transparent;
+                        line-height: 30px;
+                        &:hover {
+                            text-decoration: none;
+                            border-bottom: 1px solid #DDD;
+                        }
+                    }
+                    .small-desc {
+                        float: left;
+                        width: 56%;
+                        .the-date {
+                            span {
+                                font-size: 14px;
+                                color: #90969a;
+                            }
+                            .author {
+                                a {
+                                    color: #fe170c;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        .sku-number {
+                            p {
+                                margin-bottom: 0;
+                                margin-top: 20px;
+                                font-size: 14px;
+                                color: #90969a;
+                            }
+                            span {
+                                font-size: 30px;
+                                color: #90969a;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+                }
+                .desc-job {
+                    .detail-job {
+                        clear: both;
+                        padding: 15px 0 10px;
+                        border-top: 1px solid #DDD;
+                        border-bottom: 1px solid #DDD;
+                        .city,
+                        .number-place,
+                        .requirements {
+                            display: inline-block;
+                            margin-right: 35px;
+                            img {
+                                width: 30px;
+                                height: 25px;
+                                display: inline-block;
+                            }
+                            p {
+                                font-size: 14px;
+                                color: #7b7b7b;
+                                display: inline-block;
+                            }
+                            a {
+                                border-bottom: 1px solid transparent;
+                                p {
+                                    color: #fe170c;
+                                }
+                                &:hover {
+                                    text-decoration: none;
+                                    border-bottom: 1px solid #DDD;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content-job-post {
+                    .desc-post {
+                        p {
+                            line-height: 25px;
+                            font-size: 18px;
+                            strong {
+                                font-size: 20px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                    padding: 15px 120px;
+                    p {
+                        color: #1b1b1b;
+                    }
+                    .one-image {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        height: 350px;
+                        width: 100%;
+                    }
+                    .responsibilities-container {
+                        background: #eeeeee;
+                        padding: 5px;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        h2 {
+                            color: #1b1b1b;
+                            font-size: 18px;
+                            font-weight: 900;
+                            padding-left: 5px;
+                            margin-bottom: 0px;
+                        }
+                        .list-item {
+                            ul {
+                                padding-left: 20px;
+                                li {
+                                    p {
+                                        color: #1b1b1b;
+                                        font-size: 18px;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .gallery-container {
+                        .gallery-single {
+                            .background {
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center center;
+                                height: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+            .sidebar-single-job {
+                .author-box {
+                    background: #FFF;
+                    margin-bottom: 15px;
+                    padding: 15px 15px 30px;
+                    text-align: center;
+                    .contact-box {
+                        .image-user {
+                            img {
+                                border-radius: 50%;
+                                width: 70%;
+                                height: auto;
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        h2 {
+                            color: #191919;
+                            font-size: 15px;
+                            font-weight: 900;
+                            margin-bottom: 0;
+                            text-transform: uppercase;
+                        }
+                        h4 {
+                            font-size: 30px;
+                            font-weight: 300;
+                            color: #191919;
+                            margin-top: 0;
+                            margin-bottom: 20px;
+                        }
+                        .tel {
+                            img {
+                                width: 20px;
+                                height: 20px;
+                                display: block;
+                                margin: 5px auto;
+                            }
+                            a {
+                                color: #191919;
+                                font-size: 15px;
+                                transition: 0.3s ease-in-out;
+                                &:hover {
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                }
+                            }
+                            margin-bottom: 15px;
+                        }
+                        .email {
+                            img {
+                                width: 24px;
+                                height: 17px;
+                                display: block;
+                                margin: 5px auto;
+                            }
+                            a {
+                                color: #ff180d;
+                                font-size: 15px;
+                                transition: 0.3s ease-in-out;
+                                &:hover {
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                    .button-user {
+                        margin-top: 30px;
+                        a {
+                            border: 1px solid #DDD;
+                            border-radius: 75px;
+                            padding: 10px 12px;
+                            font-size: 15px;
+                            color: #62625b;
+                            transition: 0.3s ease-in-out;
+                            &:hover {
+                                text-decoration: none;
+                                box-shadow: 0 0 22px -7px rgba(0, 0, 0, .25);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 1200px) {
+    .content-wrap {
+        .content {
+            .background-darken {
+                .job-container {
+                    .content-job-post {
+                        padding: 15px 50px;
+                    }
+                }
+                .sidebar-single-job {
+                    .author-box {
+                        .contact-box {
+                            .image-user {
+                                img {
+                                    width: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 992px) {
+    .content-wrap {
+        .content {
+            .background-darken {
+                .job-container {
+                    .content-job-post {
+                        .gallery-container {
+                            .gallery-single {
+                                .background {
+                                    margin-bottom: 15px;
+                                    height: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 768px) {
+    .content-wrap {
+        .content {
+            .background-darken {
+                .job-container {
+                    .single-job {
+                        .small-desc {
+                            float: none;
+                            width: 100%;
+                        }
+                        .description {
+                            padding-left: 0;
+                            width: 100%;
+                            .price {
+                                text-align: left;
+                                margin-bottom: 10px;
+                            }
+                            .button-container {
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .content-job-post {
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 576px) {
+    .content-wrap {
+        .content {
+            .background-darken {
+                .job-container {
+                    .single-job {
+                        .small-desc {
+                            a {
+                                font-size: 24px;
+                            }
+                            .sku-number {
+                                span {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                        .description {
+                            .price {
+                                span {
+                                    font-size: 22px;
+                                }
+                            }
+                            .button-container {
+                                a {
+                                    padding: 10px 55px;
+                                }
+                            }
+                        }
+                    }
+                    .content-job-post {
+                        .one-image {
+                            height: 250px;
+                        }
+                        .desc-post {
+                            p {
+                                strong {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                        .responsibilities-container {
+                            padding: 10px;
+                            h2 {
+                                padding-left: 0;
+                            }
+                            ul {
+                                padding-left: 15px;
+                            }
+                        }
+                    }
+                }
+                .sidebar-single-job {
+                    .author-box {
+                        .contact-box {
+                            .image-user {
+                                img {
+                                    width: 70%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
