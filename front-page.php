@@ -49,8 +49,10 @@ $background_front = get_field( 'background_front' );
                       <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
                       <?php
                       if ( has_post_thumbnail() ) { ?>
+                        <a href="<?php the_permalink(); ?>">
                           <div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)">
                           </div>
+                        </a>
                       <?php }
                       ?>
                       <p><?php echo get_the_date(); ?></p>
@@ -173,9 +175,7 @@ if ( $currentlang=="ru-RU" ) {
 
                       <?php
                       if ( has_post_thumbnail() ) { ?>
-                          <div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)">
-
-                          </div>
+                          <div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)"></div>
                       <?php }
                       ?>
                       <div class="post-desc">
@@ -301,7 +301,7 @@ if ( $currentlang=="ru-RU" ) {
   <div class="container">
     <div class="row">
       <div class="col-sm-12 title" data-aos="fade-up" data-aos-offset="300" data-aos-once="true">
-        <h2><?php echo pll__( 'Dla cudzoziemca' ); ?></h2>
+        <h3><?php echo pll__( 'Dla cudzoziemca' ); ?></h3>
       </div>
       <div class="employer-container flexgrid clearfix">
         <?php
@@ -319,9 +319,7 @@ if ( $currentlang=="ru-RU" ) {
                       <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
                       <?php
                       if ( has_post_thumbnail() ) { ?>
-                          <div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)">
-
-                          </div>
+                          <div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)"></div>
                       <?php }
                       ?>
                       <div class="detail-post">

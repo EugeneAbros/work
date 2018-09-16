@@ -121,7 +121,7 @@ $labelbn = $hours_bn['choices'][ $valuebn ];
                    <?php echo get_wp_user_avatar( $user_info->ID ); ?>
                  </div>
                  <h2><?php echo pll__( 'Opiekun Oferty' ); ?></h2>
-                 <h1><?php the_author(); ?></h1>
+                 <h4><?php the_author(); ?></h4>
                                              <div class="tel">
                    <img src="<?php bloginfo('template_url'); ?>/images/sidemenu-viber@2.png" alt="tel">
                    <a href="tel:<?php echo esc_html(phone_to_link( the_author_meta( 'phone', $user_info->ID )  ) ); ?>"><?php the_author_meta( 'phone', $user_info->ID ); ?></a>

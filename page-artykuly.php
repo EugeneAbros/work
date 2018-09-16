@@ -34,8 +34,9 @@
 										<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 										<?php
 										if ( has_post_thumbnail() ) { ?>
-										<div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)">
-										</div>
+											<a href="<?php the_permalink(); ?>">
+												<div class="image-post" style="background-image:url(<?php echo $thumb['0'];?>)"></div>
+											</a>
 										<?php }
 										?>
 										<div class="insert-content">
